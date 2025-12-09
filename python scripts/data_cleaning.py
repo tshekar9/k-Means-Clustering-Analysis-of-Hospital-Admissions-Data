@@ -7,8 +7,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from sklearn.preprocessing import StandardScaler
-from sklearn.cluster import KMeans
-from sklearn.metrics import silhouette_score
 
 # load data set into dataframe
 df = pd.read_csv("./medical_clean.csv", index_col=0)
