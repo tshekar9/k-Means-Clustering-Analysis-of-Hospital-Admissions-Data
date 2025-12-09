@@ -1,9 +1,7 @@
-
-# D212 Data Mining II
-# Clustering Techniques: k-Means Clustering
+# k-Means-Clustering-Analysis-of-Hospital-Admissions-Data
 
 # Tejaswini Shekar
-# Student ID: 011840229
+
 
 
 #import required packages 
