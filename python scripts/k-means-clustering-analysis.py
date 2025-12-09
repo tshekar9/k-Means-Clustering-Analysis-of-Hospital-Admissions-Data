@@ -4,10 +4,11 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
+# load data set into dataframe
+df = pd.read_csv("./scaled_medical.csv", index_col=0)
 
 # determine optimal number of clusters
 inertia = []
